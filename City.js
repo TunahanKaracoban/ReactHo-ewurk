@@ -101,18 +101,6 @@ const person10 ={
 }      
 const people=[person1,person2,person3,person4,person5,person6,person7,person8,person9,person10] 
 
-// BURASI BONUS ASIL İSTENEN EN SONDAKİ KOD :)
-
-// let city=people.reduce((prive,person)=>{
-//     prive[person.location]=prive[person.location]+1 || 1;
-//     return prive
-// },{})
-
-// console.log(city)  //Çıktısı=> {İstanbul:4 ,Ankara:2, Trabzon:2, İzmir:2}
-
-//********************************************************************************************** *****************/
-
-
 let group="location" // location'a göre grupla
 let groupedLocation=people.reduce((prive,person)=>{
 
